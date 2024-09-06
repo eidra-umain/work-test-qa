@@ -1,0 +1,89 @@
+
+@import "variables"; 
+
+.restaurant-card {
+  background-color: $themeWhite;
+  border: 0.6px solid $themeBorder;
+  border-radius: 8px;
+  height: 200px;
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  
+  .closed-overlay {
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display:flex; 
+    justify-content:center;
+    align-items:center;
+    height:100%;
+
+    .message {
+      background-color: $themeGray;
+      border: 1px solid $themeBorder;
+      border-radius: 5px;
+      padding: 5px;
+    }
+  }
+
+  .lower-row {
+    bottom: 0; 
+    position: absolute; 
+    width: 100%;
+  }
+
+  .image { 
+    position: relative;
+    float: right;
+
+    img {
+      height: 80px;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+
+    .restaurant-closed {
+      opacity: 0.3;
+      filter: grayscale(100%);
+    }
+  }
+
+  .badge {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 8px 12px 8px 12px;
+    border: 0.6px solid $themeBorder;
+    border-radius: 100px;
+  }
+
+  .circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-bottom: -0.5px;
+    border-radius: 100px;
+    margin-right: 5px;
+  }
+
+  .restaurant-name {
+    display: inline-block;
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+
+  .restaurant-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+}
+
+

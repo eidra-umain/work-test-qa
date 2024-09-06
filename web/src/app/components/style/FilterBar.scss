@@ -1,0 +1,29 @@
+
+.filter-bar {
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding-bottom: 3px;
+}
+
+@media (min-width: 700px) {
+  .filter-bar {
+    margin-right: 20px;
+  }
+}
+
+// Makes the cards in FilterBar go to the edges of the screen on the mobile version:
+/*
+@media (max-width: 700px) {
+  .filter-bar {
+    padding-right: 20px;
+    padding-left: 20px;
+
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  .filter-bar::-webkit-scrollbar {
+    display: none;
+  }
+}
+*/

@@ -1,0 +1,24 @@
+
+.restaurant-list {
+  display: grid;
+  grid-template-columns: repeat(3, 20fr);
+  margin-right: -20px;
+  max-width: 1015px;
+}
+
+@media (max-width: 1200px) {
+  .restaurant-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 950px) {
+  .restaurant-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+
+
+

@@ -1,0 +1,58 @@
+
+@import "variables"; 
+
+.filter-button {
+  display: inline-block;
+  padding: 8px 8px 8px 8px;
+  border: 0.6px solid $themeBorder;
+  border-radius: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  user-select: none;
+}
+
+.filter-button:hover {
+  cursor: pointer;
+}
+
+.delivery-time-filter-button:last-child {
+  margin-right: 0; // to save space, necessary to keep it on one line for mobile width
+}
+
+.filter-card {
+  background-color: $themeWhite;
+  border: 0.6px solid $themeBorder;
+  border-radius: 8px;
+  height: 80px;
+  width: 160px;
+  margin-right: 10px;
+  display: inline-block;
+  user-select: none;
+
+  .image { 
+    position: relative;
+    float: right;
+
+    img {
+      height: 80px;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+  }
+  
+  .name {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 16px;
+    margin-left: 12px;
+  }
+}
+
+.filter-card:hover {
+  cursor: pointer;
+}
+
+.filter-card:last-of-type {
+  margin-right: 0;
+}

@@ -1,0 +1,25 @@
+@import "components/style/variables";
+
+body {
+  background-color: $themeGray;
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px
+}
+::-webkit-scrollbar-track {margin-top: 10px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+
+
+
+
+

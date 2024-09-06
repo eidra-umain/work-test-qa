@@ -1,0 +1,118 @@
+
+
+@import "components/style/variables";
+
+
+main {
+  padding-left: 40px;
+  padding-top: 50px;
+
+  padding-right: 20px;
+}
+
+.logo {
+  margin-bottom: 50px;
+}
+
+#restaurants-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+  main {
+    padding: 20px;
+
+  }
+
+  .logo {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+  }
+
+  .logo svg {
+    width: 167.17px;
+    
+  }
+
+  #restaurants-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #restaurants-title div {
+    font-size: 20px;
+  }
+
+  .main-panel {
+    margin-top: 20px;
+  }
+}
+
+
+
+.mobile-container {
+  z-index: 20;
+  background-color: $themeGreen;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+
+  .logo {
+    margin: 0;
+    padding: 0;
+
+    padding-top: 60px;
+    padding-left: 20px;
+  }
+
+
+  .mobile-message {
+    padding: 20px;
+    width: 300px;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+
+    .mobile-message-title {
+      font-weight: 760;
+      font-size: 48px;
+      line-height: 48px;
+      margin-bottom: 20px;
+    }
+
+    .mobile-message-text {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+
+
+  .continue-button-container {
+    box-sizing: border-box;
+    width: 100%;
+
+    bottom: 0; 
+    position: absolute;
+    padding: 20px;
+    padding-bottom: 30px;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    .continue-button {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: center;
+      border: 1px solid white;
+      border-radius: 5px;
+      user-select: none;
+    }
+    .continue-button:hover {
+      cursor: pointer;
+    }
+  }
+}
+
