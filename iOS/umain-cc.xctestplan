@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "B17CC7CB-9EE5-481A-8FE2-0DBAD3132C50",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:umain-cc.xcodeproj",
+        "identifier" : "4257CB302AB7602500DC0125",
+        "name" : "umain-ccTests"
+      }
+    }
+  ],
+  "version" : 1
+}
