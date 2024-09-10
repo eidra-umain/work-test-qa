@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.awesome.foodrunner.android.androidApp-mergeDebugResources-55:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/casvanluijtelaar/.gradle/caches/transforms-3/d75df246063bb822ae5a8ae033ffea14/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

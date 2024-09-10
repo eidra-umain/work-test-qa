@@ -27,6 +27,15 @@ Umain’s Tech Stack and YOU!
 
 At Umain, our main test automation stack is Appium, JavaScript and WDIO for mobile and Selenium for Web. For this Work Test, you can choose any tech stack you are comfortable with.
 
+## What's included in this Repository
+
+In this repository you'll find an Android, iOS, and web project, all about the same basic "munchies" app. The Android project is made with Jetpack Compose and Kotlin Multiplatform. The iOS project with SwiftUI and the web project with Next.js 
+
+You can find a prebuild android apk in 
+```
+umain-qa-work-test/Android/androidApp/build/outputs/apk/debug/androidApp-debug.apk
+```
+
 
 ## Design
 You can find the [link to the design here](https://www.figma.com/file/263XJno7ii0uEaarJP9Ydw/Umain-Tech-Case?type=design&node-id=27%3A5682&mode=design&t=BPI3BgkmmHVtTdCb-1).
