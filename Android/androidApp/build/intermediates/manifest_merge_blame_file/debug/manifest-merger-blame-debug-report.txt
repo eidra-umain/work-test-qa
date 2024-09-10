@@ -37,101 +37,102 @@
 25-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:9:9-41
 26        android:supportsRtl="true"
 26-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:7:9-35
-27        android:theme="@style/AppTheme" >
-27-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:8:9-40
-28        <activity
-28-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:11:9-20:20
-29            android:name="com.awesome.foodrunner.android.MainActivity"
-29-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:12:13-41
-30            android:configChanges="orientation"
-30-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:13:13-48
-31            android:exported="true"
-31-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:15:13-36
-32            android:screenOrientation="locked" >
-32-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:14:13-47
-33            <intent-filter>
-33-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:16:13-19:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:17:17-69
-34-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:17:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:18:17-77
-36-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:18:27-74
-37            </intent-filter>
-38        </activity>
-39        <activity
-39-->[androidx.compose.ui:ui-tooling-android:1.5.4] /Users/casvanluijtelaar/.gradle/caches/transforms-3/de2537e06f77f039fe6d0f34dfc2b1c5/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
-40            android:name="androidx.compose.ui.tooling.PreviewActivity"
-40-->[androidx.compose.ui:ui-tooling-android:1.5.4] /Users/casvanluijtelaar/.gradle/caches/transforms-3/de2537e06f77f039fe6d0f34dfc2b1c5/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
-41            android:exported="true" />
-41-->[androidx.compose.ui:ui-tooling-android:1.5.4] /Users/casvanluijtelaar/.gradle/caches/transforms-3/de2537e06f77f039fe6d0f34dfc2b1c5/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
-42
-43        <provider
-43-->[androidx.emoji2:emoji2:1.4.0] /Users/casvanluijtelaar/.gradle/caches/transforms-3/c18b0c71bb0c5ffe2a5c63b739b07c3c/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
-44            android:name="androidx.startup.InitializationProvider"
-44-->[androidx.emoji2:emoji2:1.4.0] /Users/casvanluijtelaar/.gradle/caches/transforms-3/c18b0c71bb0c5ffe2a5c63b739b07c3c/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
-45            android:authorities="com.awesome.foodrunner.android.androidx-startup"
-45-->[androidx.emoji2:emoji2:1.4.0] /Users/casvanluijtelaar/.gradle/caches/transforms-3/c18b0c71bb0c5ffe2a5c63b739b07c3c/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
-46            android:exported="false" >
-46-->[androidx.emoji2:emoji2:1.4.0] /Users/casvanluijtelaar/.gradle/caches/transforms-3/c18b0c71bb0c5ffe2a5c63b739b07c3c/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
-47            <meta-data
-47-->[androidx.emoji2:emoji2:1.4.0] /Users/casvanluijtelaar/.gradle/caches/transforms-3/c18b0c71bb0c5ffe2a5c63b739b07c3c/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
-48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-48-->[androidx.emoji2:emoji2:1.4.0] /Users/casvanluijtelaar/.gradle/caches/transforms-3/c18b0c71bb0c5ffe2a5c63b739b07c3c/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
-49                android:value="androidx.startup" />
-49-->[androidx.emoji2:emoji2:1.4.0] /Users/casvanluijtelaar/.gradle/caches/transforms-3/c18b0c71bb0c5ffe2a5c63b739b07c3c/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
-50            <meta-data
-50-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/casvanluijtelaar/.gradle/caches/transforms-3/ccaf418458c85b1ef3bc19a199ba9b58/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
-51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-51-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/casvanluijtelaar/.gradle/caches/transforms-3/ccaf418458c85b1ef3bc19a199ba9b58/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
-52                android:value="androidx.startup" />
-52-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/casvanluijtelaar/.gradle/caches/transforms-3/ccaf418458c85b1ef3bc19a199ba9b58/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
-53            <meta-data
-53-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
-54                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-54-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
-55                android:value="androidx.startup" />
-55-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
-56        </provider>
-57
-58        <receiver
-58-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
-59            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-59-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
-60            android:directBootAware="false"
-60-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
-61            android:enabled="true"
-61-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
-62            android:exported="true"
-62-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
-63            android:permission="android.permission.DUMP" >
-63-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
-64            <intent-filter>
-64-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
-65                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-65-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
-65-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
-66            </intent-filter>
-67            <intent-filter>
-67-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
-68                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-68-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
-68-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
-69            </intent-filter>
-70            <intent-filter>
-70-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
-71                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-71-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
-71-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
-72            </intent-filter>
-73            <intent-filter>
-73-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
-74                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-74-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
-74-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
-75            </intent-filter>
-76        </receiver>
-77    </application>
-78
-79</manifest>
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:8:9-40
+29        <activity
+29-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:11:9-20:20
+30            android:name="com.awesome.foodrunner.android.MainActivity"
+30-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:12:13-41
+31            android:configChanges="orientation"
+31-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:13:13-48
+32            android:exported="true"
+32-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:15:13-36
+33            android:screenOrientation="locked" >
+33-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:14:13-47
+34            <intent-filter>
+34-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:16:13-19:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:17:17-69
+35-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:17:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:18:17-77
+37-->/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/src/main/AndroidManifest.xml:18:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->[androidx.compose.ui:ui-tooling-android:1.5.4] /Users/casvanluijtelaar/.gradle/caches/transforms-3/de2537e06f77f039fe6d0f34dfc2b1c5/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+41            android:name="androidx.compose.ui.tooling.PreviewActivity"
+41-->[androidx.compose.ui:ui-tooling-android:1.5.4] /Users/casvanluijtelaar/.gradle/caches/transforms-3/de2537e06f77f039fe6d0f34dfc2b1c5/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+42            android:exported="true" />
+42-->[androidx.compose.ui:ui-tooling-android:1.5.4] /Users/casvanluijtelaar/.gradle/caches/transforms-3/de2537e06f77f039fe6d0f34dfc2b1c5/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.4.0] /Users/casvanluijtelaar/.gradle/caches/transforms-3/c18b0c71bb0c5ffe2a5c63b739b07c3c/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.4.0] /Users/casvanluijtelaar/.gradle/caches/transforms-3/c18b0c71bb0c5ffe2a5c63b739b07c3c/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+46            android:authorities="com.awesome.foodrunner.android.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.4.0] /Users/casvanluijtelaar/.gradle/caches/transforms-3/c18b0c71bb0c5ffe2a5c63b739b07c3c/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.4.0] /Users/casvanluijtelaar/.gradle/caches/transforms-3/c18b0c71bb0c5ffe2a5c63b739b07c3c/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.4.0] /Users/casvanluijtelaar/.gradle/caches/transforms-3/c18b0c71bb0c5ffe2a5c63b739b07c3c/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.4.0] /Users/casvanluijtelaar/.gradle/caches/transforms-3/c18b0c71bb0c5ffe2a5c63b739b07c3c/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.4.0] /Users/casvanluijtelaar/.gradle/caches/transforms-3/c18b0c71bb0c5ffe2a5c63b739b07c3c/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/casvanluijtelaar/.gradle/caches/transforms-3/ccaf418458c85b1ef3bc19a199ba9b58/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/casvanluijtelaar/.gradle/caches/transforms-3/ccaf418458c85b1ef3bc19a199ba9b58/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/casvanluijtelaar/.gradle/caches/transforms-3/ccaf418458c85b1ef3bc19a199ba9b58/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+55-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+56                android:value="androidx.startup" />
+56-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+57        </provider>
+58
+59        <receiver
+59-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+60            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+60-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+61            android:directBootAware="false"
+61-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+62            android:enabled="true"
+62-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+63            android:exported="true"
+63-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+64            android:permission="android.permission.DUMP" >
+64-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+65            <intent-filter>
+65-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+66                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+67            </intent-filter>
+68            <intent-filter>
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+69                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+70            </intent-filter>
+71            <intent-filter>
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+72                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+73            </intent-filter>
+74            <intent-filter>
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+75                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/casvanluijtelaar/.gradle/caches/transforms-3/18a80b35cb14d60ef69584f0115ff534/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+76            </intent-filter>
+77        </receiver>
+78    </application>
+79
+80</manifest>
