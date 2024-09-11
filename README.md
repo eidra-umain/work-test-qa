@@ -33,7 +33,7 @@ In this repository you'll find an Android, iOS, and web project, all about the s
 
 You can find a prebuild android apk in 
 ```
-umain-qa-work-test/Android/androidApp/build/outputs/apk/debug/androidApp-debug.apk
+Android/androidApp/build/outputs/apk/androidTest/debug/androidApp-debug-androidTest.apk
 ```
 
 
