@@ -40,7 +40,7 @@ You can find a prebuild iOS ipa in
 ```
 iOS/umain-cc-testBuild/umain-cc.ipa
 ```
-
+the bundle id of this app is com.umain.qa-test
 
 
 ## Design
