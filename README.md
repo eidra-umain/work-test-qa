@@ -36,6 +36,12 @@ You can find a prebuild android apk in
 Android/androidApp/build/outputs/apk/androidTest/debug/androidApp-debug-androidTest.apk
 ```
 
+You can find a prebuild iOS ipa in 
+```
+iOS/umain-cc-testBuild/umain-cc.ipa
+```
+
+
 
 ## Design
 You can find the [link to the design here](https://www.figma.com/file/263XJno7ii0uEaarJP9Ydw/Umain-Tech-Case?type=design&node-id=27%3A5682&mode=design&t=BPI3BgkmmHVtTdCb-1).
