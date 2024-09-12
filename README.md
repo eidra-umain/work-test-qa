@@ -12,24 +12,29 @@ Umain is working on setting up a new and exciting restaurant service: Munchies! 
 
 ## Requirements
 
+### User stories
+- As a user, the first time I open the application / website, I should see an unfiltered list of all restaurants
+- As a user, I should be able to select a filter from the sidebar (website only) or the topbar. When I select a filter, the List View should reflect the new updates
+- As a user, I should be able to select multiple filters
+- As a user, I should be able to deselect a filter by clicking on it. If I deselect any filter(s), the List View should reflect the new updates
+
 ### Create test plan
 
-- as we’re close to a big release, we will cover only critical paths, write some test cases to cover the most critical functionality
+As we are close to a big release, we will cover only critical paths. Please write some test cases to cover the most critical functionality
 
 ### Automation
 
-- Build an automation test framework which runs cases you just created!
-Would be a plus!
-- Integrate reporting, we need to show test results to the managers!
-Umain’s Tech Stack and YOU!
+- Build an automation test framework which runs cases you just created
+- Integrate reporting. We need to show test results to the stakeholders
 
 ## Umain's Tech Stack and YOU!
 
-At Umain, our main test automation stack is Appium, JavaScript and WDIO for mobile and Selenium for Web. For this Work Test, you can choose any tech stack you are comfortable with.
+At Umain, our main test automation stack is Appium, JavaScript and WDIO for mobile and Cypress, WDIO, Playwright, or Puppeteer for Web. 
+For this Work Test, you can choose any tech stack you are comfortable with.
 
 ## What's included in this Repository
 
-In this repository you'll find an Android, iOS, and web project, all about the same basic "munchies" app. The Android project is made with Jetpack Compose and Kotlin Multiplatform. The iOS project with SwiftUI and the web project with Next.js 
+In this repository you'll find an Android, iOS, and web project, all about the same basic "Munchies" app. The Android project is made with Jetpack Compose and Kotlin Multiplatform. The iOS project with SwiftUI and the web project with Next.js 
 
 You can find a prebuild android apk in 
 ```
@@ -51,7 +56,7 @@ To get the right fonts, colors, sizes and more, please refer to the design in Fi
 ## All done?
 
 :star: Awesome, great job! :star:
-The next thing is that a Umain QA engineer will take a look at your project, code, testcases anything you might have done
+The next thing is that a Umain QA engineer will take a look at your project, code, testcases and anything else you worked on!
 Here are a few ways to get your project to us:
 
 - You could share your repo (if public) so that we can clone and install locally
