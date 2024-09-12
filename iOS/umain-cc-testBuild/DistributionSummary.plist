@@ -14,11 +14,11 @@
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
-				<string>5EC22DF64BDAA283D2257AFAD4880C3764D50DD1</string>
+				<string>9F485B79B707F86F5E468191850817D8708AE26E</string>
 				<key>dateExpires</key>
-				<string>30/05/2025</string>
+				<string>12/04/2025</string>
 				<key>type</key>
-				<string>Cloud Managed Apple Distribution</string>
+				<string>Apple Development</string>
 			</dict>
 			<key>entitlements</key>
 			<dict>
@@ -27,18 +27,18 @@
 				<key>com.apple.developer.team-identifier</key>
 				<string>9N8ZC32DMP</string>
 				<key>get-task-allow</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>name</key>
 			<string>umain-cc.app</string>
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>2ad49c1c-9163-4cfa-96d0-db50df2b56fc</string>
+				<string>3bb8bcad-310c-4137-8e19-f348ed525748</string>
 				<key>dateExpires</key>
-				<string>30/05/2025</string>
+				<string>12/09/2025</string>
 				<key>name</key>
-				<string>iOS Team Ad Hoc Provisioning Profile: com.umain.qa-test</string>
+				<string>iOS Team Provisioning Profile: com.umain.qa-test</string>
 			</dict>
 			<key>team</key>
 			<dict>
