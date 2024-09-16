@@ -3,8 +3,8 @@
 Welcome to Umain's Test Automation Assignment! This document contains the following things:
 
 - Intro to the Work Test
-- Technical specifications
 - Requirements
+- Technical specifications
 
 ## Intro to the Work Test
 
@@ -20,12 +20,15 @@ Umain is working on setting up a new and exciting restaurant service: Munchies! 
 
 ### Create test plan
 
-As we are close to a big release, we will cover only critical paths. Please write some test cases to cover the most critical functionality
+As we are close to a big release, we will cover only critical paths. Write some test cases to cover the most critical functionality. We have 3 different projects: Android, iOS and web.
+- Choose 2 of the 3 projects and write the test cases for them
 
 ### Automation
+To save us time in the future, it would be really helpful to automate the tests.
+- Automate the test cases you have written for the projects
 
-- Build an automation test framework which runs cases you just created
-- Integrate reporting. We need to show test results to the stakeholders
+### Test Reporting (Optional)
+If time allows it, we would like to see a Test Report of 1 of the Test Runs. You're free to choose which tools you'd like to use for this.
 
 ## Umain's Tech Stack and YOU!
 
