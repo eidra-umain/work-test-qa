@@ -26,6 +26,8 @@ As we are close to a big release, we will cover only critical paths. Write some 
 ### Automation
 To save us time in the future, it would be really helpful to automate the tests.
 - Automate the test cases you have written for the projects
+- Use Page Object Model pattern in your test framework
+- When sharing the project, provide CLI commands how to run tests for Android, iOS and Web
 
 ### Test Reporting (Optional)
 If time allows it, we would like to see a Test Report of 1 of the Test Runs. You're free to choose which tools you'd like to use for this.
