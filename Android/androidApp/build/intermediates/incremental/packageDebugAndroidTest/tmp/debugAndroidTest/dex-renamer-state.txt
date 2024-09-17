@@ -1,4 +1,0 @@
-#Tue Sep 10 11:10:27 CEST 2024
-base.0=/Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
-path.0=0/classes.dex
-renamed.0=classes.dex

@@ -1,4 +1,0 @@
-com.awesome.foodrunner.android.test.androidApp-androidTest-0 /Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/build/generated/res/resValues/androidTest/debug
-com.awesome.foodrunner.android.test.androidApp-mergeDebugAndroidTestResources-1 /Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.awesome.foodrunner.android.test.androidApp-mergeDebugAndroidTestResources-2 /Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.awesome.foodrunner.android.test.androidApp-merged_res-3 /Users/casvanluijtelaar/Projects/umain-qa-work-test/Android/androidApp/build/intermediates/merged_res/debugAndroidTest
