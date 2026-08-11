@@ -1,3 +1,29 @@
+# macOS
 .DS_Store
-.node_modules
-.vscode
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.iml
+
+# Node / web
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-error.log*
+
+# Gradle / Android
+.gradle/
+build/
+local.properties
+captures/
+.kotlin/
+*.hprof
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+*.xcscmblueprint
+*.xccheckout
