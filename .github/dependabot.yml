@@ -1,0 +1,39 @@
+version: 2
+
+updates:
+  # Web app (Next.js). Covers package.json and package-lock.json.
+  - package-ecosystem: npm
+    directory: /web
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      # One PR per week for routine bumps; security fixes still get their own PR.
+      web-dependencies:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+
+  # Android / Kotlin Multiplatform. Reads gradle/libs.versions.toml and the
+  # build.gradle.kts files. Note: Dependabot does not update the Gradle wrapper
+  # itself -- bump that with `./gradlew wrapper --gradle-version <version>`.
+  - package-ecosystem: gradle
+    directory: /Android
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      android-dependencies:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+
+  # Keeps any workflows added under .github/workflows on current action versions.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
