@@ -1,6 +1,5 @@
 
 
-@import "components/style/variables";
 
 
 main {
@@ -54,7 +53,7 @@ main {
 
 .mobile-container {
   z-index: 20;
-  background-color: $themeGreen;
+  background-color: var(--theme-green);
   height: 100vh;
   width: 100vw;
   color: white;

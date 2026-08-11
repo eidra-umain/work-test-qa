@@ -1,10 +1,9 @@
 
-@import "variables"; 
 
 .filter-button {
   display: inline-block;
   padding: 8px 8px 8px 8px;
-  border: 0.6px solid $themeBorder;
+  border: 0.6px solid var(--theme-border);
   border-radius: 8px;
   margin-right: 8px;
   margin-bottom: 8px;
@@ -20,8 +19,8 @@
 }
 
 .filter-card {
-  background-color: $themeWhite;
-  border: 0.6px solid $themeBorder;
+  background-color: var(--theme-white);
+  border: 0.6px solid var(--theme-border);
   border-radius: 8px;
   height: 80px;
   width: 160px;

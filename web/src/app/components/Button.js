@@ -2,12 +2,11 @@
 
 import { useState } from 'react';
 import './style/Button.scss';
-import scssVariables from "./style/variables.module.scss"
 
 const Button = ({ children, id, handleClick, buttonType, selected }) => {
   let dynamicStyle = selected
-    ? { backgroundColor: scssVariables.themeButtonSelected }
-    : { backgroundColor: scssVariables.themeWhite };
+    ? { backgroundColor: 'var(--theme-button-selected)' }
+    : { backgroundColor: 'var(--theme-white)' };
 
   return (
     <div

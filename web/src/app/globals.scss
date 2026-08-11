@@ -1,7 +1,14 @@
-@import "components/style/variables";
+:root {
+  --theme-white: #ffffff;
+  --theme-border: rgba(0, 0, 0, 0.1);
+  --theme-gray: #fafafa;
+  --theme-black: #000000;
+  --theme-green: #00703a;
+  --theme-button-selected: lightgray;
+}
 
 body {
-  background-color: $themeGray;
+  background-color: var(--theme-gray);
   padding: 0;
   margin: 0;
 }

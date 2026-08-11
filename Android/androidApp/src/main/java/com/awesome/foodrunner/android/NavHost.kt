@@ -9,7 +9,7 @@ import androidx.navigation.compose.rememberNavController
 import com.awesome.foodrunner.android.ui.main.MainScreen
 import com.awesome.foodrunner.android.ui.viewModel.MainScreenViewModel
 import com.awesome.foodrunner.android.ui.theme.AppTheme
-import org.koin.androidx.compose.getViewModel
+import org.koin.androidx.compose.koinViewModel
 
 const val mainScreenDestination = "MainScreenDestination"
 
@@ -20,7 +20,7 @@ fun MainNavHost() {
     AppTheme {
         NavHost(navController = navHost, startDestination = mainScreenDestination) {
             composable(mainScreenDestination) {
-                val viewModel: MainScreenViewModel = getViewModel()
+                val viewModel: MainScreenViewModel = koinViewModel()
                 MainScreen(viewModel).Content()
                 LaunchedEffect(viewModel) {
                     viewModel.getAllRestaurants()

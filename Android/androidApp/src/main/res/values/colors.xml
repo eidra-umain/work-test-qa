@@ -1,0 +1,4 @@
+<resources>
+    <!-- Mirrors backgroundColor in ui/theme/Colors.kt, used behind the system bars. -->
+    <color name="background">#FFF8F8F8</color>
+</resources>

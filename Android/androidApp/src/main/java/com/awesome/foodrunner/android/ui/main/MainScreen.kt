@@ -1,8 +1,6 @@
 package com.awesome.foodrunner.android.ui.main
 
-import android.app.Activity
 import androidx.compose.animation.core.animateDpAsState
-import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -20,23 +18,20 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
-import androidx.compose.material.CircularProgressIndicator
 import androidx.compose.material3.BottomSheetScaffold
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.rememberBottomSheetScaffoldState
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.RectangleShape
-import androidx.compose.ui.graphics.toArgb
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.Dp
@@ -45,7 +40,6 @@ import com.awesome.foodrunner.android.R
 import com.awesome.foodrunner.android.ui.common.FilterChip
 import com.awesome.foodrunner.android.ui.common.RestaurantCard
 import com.awesome.foodrunner.android.ui.details.RestaurantDetailsContent
-import com.awesome.foodrunner.android.ui.theme.backgroundColor
 import com.awesome.foodrunner.android.ui.theme.defaultPadding
 import com.awesome.foodrunner.android.ui.viewModel.LoadingState
 import com.awesome.foodrunner.android.ui.viewModel.MainScreenViewData
@@ -57,11 +51,6 @@ class MainScreen(private val viewModel: MainScreenViewModel) {
     @Composable
     fun Content() {
         val scaffoldState = rememberBottomSheetScaffoldState()
-        val context = LocalContext.current
-        SideEffect {
-            (context as Activity).window.statusBarColor = backgroundColor.toArgb()
-            context.window.navigationBarColor = backgroundColor.toArgb()
-        }
 
         BoxWithConstraints {
             val bottomSheetHeight: Dp by animateDpAsState(
@@ -200,7 +189,6 @@ class MainScreen(private val viewModel: MainScreenViewModel) {
         }
     }
 
-    @OptIn(ExperimentalFoundationApi::class)
     @Composable
     private fun RestaurantsContent() {
         LazyColumn(
@@ -212,7 +200,7 @@ class MainScreen(private val viewModel: MainScreenViewModel) {
             items(items = viewData.restaurants.toList()) { restaurant ->
                 RestaurantCard(
                     modifier = Modifier
-                        .animateItemPlacement(),
+                        .animateItem(),
                     restaurant = restaurant,
                     tags = viewModel.tagsAsStringsFor(restaurant)
                 ) {
@@ -222,7 +210,6 @@ class MainScreen(private val viewModel: MainScreenViewModel) {
         }
     }
 
-    @OptIn(ExperimentalFoundationApi::class)
     @Composable
     private fun FiltersContent() {
         LazyRow(
@@ -242,7 +229,7 @@ class MainScreen(private val viewModel: MainScreenViewModel) {
             ){ filter ->
                 FilterChip(
                     modifier = Modifier
-                        .animateItemPlacement(),
+                        .animateItem(),
                     filter = filter
                 ) {
                     viewModel.toggleFilter(filter.id)

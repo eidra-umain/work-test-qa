@@ -1,6 +1,5 @@
 package com.awesome.foodrunner.android.ui.common
 
-import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.basicMarquee
 import androidx.compose.foundation.clickable
@@ -25,7 +24,7 @@ import androidx.compose.ui.layout.ContentScale.Companion.Crop
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import coil.compose.rememberAsyncImagePainter
+import coil3.compose.rememberAsyncImagePainter
 import com.awesome.foodrunner.android.R
 import com.awesome.foodrunner.android.core.helper.pluralise
 import com.awesome.foodrunner.android.ui.theme.Footer1
@@ -78,7 +77,6 @@ fun RestaurantCard(modifier: Modifier, restaurant: Restaurant, tags: String, onC
     }
 }
 
-@OptIn(ExperimentalFoundationApi::class)
 @Composable
 private fun RestaurantDetails(modifier: Modifier, restaurant: Restaurant, tags: String) {
     Row(

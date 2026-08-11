@@ -1,6 +1,5 @@
 package com.awesome.foodrunner.android.ui.details
 
-import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.basicMarquee
@@ -21,7 +20,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import coil.compose.rememberAsyncImagePainter
+import coil3.compose.rememberAsyncImagePainter
 import com.awesome.foodrunner.android.R
 import com.awesome.foodrunner.android.core.model.CloseOpenStatus
 import com.awesome.foodrunner.android.core.model.RestaurantMediator
@@ -37,7 +36,6 @@ import com.awesome.foodrunner.android.ui.theme.secondaryBackgroundColor
 import com.awesome.foodrunner.android.ui.theme.subtitleColor
 import com.awesome.foodrunner.model.Restaurant
 
-@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun RestaurantDetailsContent(modifier: Modifier, viewModel: MainScreenViewModel) {
     val viewData = viewModel.viewData
@@ -95,7 +93,6 @@ private fun ChevronContent(viewModel: MainScreenViewModel) {
     }
 }
 
-@OptIn(ExperimentalFoundationApi::class)
 @Composable
 private fun DetailsContent(restaurant: Restaurant, openStatus: CloseOpenStatus, viewModel: MainScreenViewModel) {
     Card(

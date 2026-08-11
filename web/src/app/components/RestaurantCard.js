@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react';
 import './style/RestaurantCard.scss';
 import Text from './Text';
 import { API_URL } from '../api_url';
-import scssVariables from './style/variables.module.scss';
 import RestaurantButton from './RestaurantButton';
 
 const RestaurantCard = ({ restaurant }) => {
@@ -39,8 +38,8 @@ const RestaurantCard = ({ restaurant }) => {
                 className='circle'
                 style={
                   restaurantOpen
-                    ? { backgroundColor: scssVariables.themeGreen }
-                    : { backgroundColor: scssVariables.themeBlack }
+                    ? { backgroundColor: 'var(--theme-green)' }
+                    : { backgroundColor: 'var(--theme-black)' }
                 }
               ></span>
               {restaurantOpen ? <>Open</> : <>Closed</>}
@@ -67,8 +66,8 @@ const RestaurantCard = ({ restaurant }) => {
           className='restaurant-name'
           style={
             restaurantOpen
-              ? { color: scssVariables.themeBlack }
-              : { color: scssVariables.themeButtonSelected }
+              ? { color: 'var(--theme-black)' }
+              : { color: 'var(--theme-button-selected)' }
           }
         >
           <Text type='h1' inLine={true}>

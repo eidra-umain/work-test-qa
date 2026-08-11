@@ -15,7 +15,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
-import coil.compose.rememberAsyncImagePainter
+import coil3.compose.rememberAsyncImagePainter
 import com.awesome.foodrunner.android.core.model.FilterWithState
 import com.awesome.foodrunner.android.ui.theme.Title2
 import com.awesome.foodrunner.android.ui.theme.defaultPadding

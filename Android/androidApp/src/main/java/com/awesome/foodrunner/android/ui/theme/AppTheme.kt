@@ -3,6 +3,7 @@ package com.awesome.foodrunner.android.ui.theme
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.staticCompositionLocalOf
@@ -36,7 +37,9 @@ class FoodRunnerColorDefinition() {
 }
 
 fun resetColors(): ColorScheme {
-    return ColorScheme(
+    // lightColorScheme() defaults every role we don't name, so new Material 3 roles
+    // (surface containers, fixed accents, ...) don't break this call.
+    return lightColorScheme(
         primary = backgroundColor,
         onPrimary = darkTextColor,
         primaryContainer = backgroundColor,
@@ -57,6 +60,13 @@ fun resetColors(): ColorScheme {
         surfaceVariant =backgroundColor,
         onSurfaceVariant = darkTextColor,
         surfaceTint = backgroundColor,
+        surfaceBright = backgroundColor,
+        surfaceDim = backgroundColor,
+        surfaceContainer = backgroundColor,
+        surfaceContainerHigh = backgroundColor,
+        surfaceContainerHighest = backgroundColor,
+        surfaceContainerLow = backgroundColor,
+        surfaceContainerLowest = backgroundColor,
         inverseSurface =backgroundColor,
         inverseOnSurface =darkTextColor,
         error = negativeColor,
